@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.SearchActivity">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/edit_search"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape1"
+            android:hint="搜索一下" />
+        <ImageView
+            android:id="@+id/search_button"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/search"
+            android:layout_width="30dp"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+    <View
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="30dp"
+        android:background="#EAEAEA"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+    <ListView
+        android:dividerHeight="5dp"
+        android:id="@+id/search_result"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="650dp" />
+
+
+
+</LinearLayout>
