@@ -37,7 +37,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     //时间选择器
-    implementation 'com.contrarywind:Android-PickerView:4.1.9'
+    implementation 'com.contrarywind:Android-PickerView:3.2.7'
 
 
 }
