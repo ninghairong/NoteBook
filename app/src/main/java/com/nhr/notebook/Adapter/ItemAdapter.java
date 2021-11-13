@@ -10,6 +10,8 @@ import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.DrawableRes;
+
 import com.nhr.notebook.Entity.Diary;
 import com.nhr.notebook.R;
 import com.nhr.notebook.Tools.Tool;
@@ -82,8 +84,13 @@ public class ItemAdapter extends BaseAdapter {
         /*图片和日期*/
         holder.item_day.setText(all_List.get(position).getDate().substring(8));
         holder.item_week.setText(Tool.CalculateWeekDay(all_List.get(position).getDate()));
-//        holder.item_image;
-//        holder.imageView.setTag(position);
+        String photoPath = all_List.get(position).getPhoto();
+        if (photoPath!=null&&photoPath!="")
+            holder.item_image.setImageDrawable(Tool.getDrawable(photoPath));
+        else
+            holder.item_image.setImageResource(R.drawable.test);
+
+
         return convertView;
     }
 

@@ -5,48 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/replaced_page"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-      >
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1">
 
     </androidx.viewpager.widget.ViewPager>
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_marginStart="30dp"
+            android:id="@+id/main"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/diary" />
 
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:layout_marginBottom="20dp"
+        <ImageView
+            android:id="@+id/mine"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="250dp"
+            android:src="@drawable/mine" />
 
-    >
-
-    <TextView
-        android:id="@+id/main"
-        android:layout_width="92dp"
-        android:layout_height="92dp"
-        android:layout_marginStart="20dp"
-        android:background="@drawable/shape"
-        android:gravity="center"
-        android:text="日记"
-        android:textSize="20dp" />
-
-    <TextView
-        android:layout_marginStart="150dp"
-        android:layout_marginEnd="20dp"
-        android:id="@+id/mine"
-        android:layout_width="92dp"
-        android:layout_height="92dp"
-        android:background="@drawable/shape"
-        android:gravity="center"
-        android:text="我的"
-        android:textSize="20dp" />
-</LinearLayout>
-
+    </LinearLayout>
 
 
 </LinearLayout>

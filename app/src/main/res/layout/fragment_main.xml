@@ -6,25 +6,29 @@
     android:background="#EFEEEE"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <LinearLayout
-        android:background="#ffffff"
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="132dp"
+        android:background="#ffffff"
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="95dp"
+            android:id="@+id/search"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:src="@drawable/search"
-            />
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="95dp"
+            android:src="@drawable/search" />
 
         <TextView
-            android:layout_marginEnd="95dp"
             android:id="@+id/day"
             android:layout_width="132dp"
             android:layout_height="121dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="95dp"
             android:background="@drawable/calendar"
             android:paddingTop="15dp"
             android:text="30"
@@ -35,28 +39,30 @@
         <ImageView
             android:layout_width="25dp"
             android:layout_height="25dp"
-
+            android:layout_marginTop="10dp"
+            android:id="@+id/new_diary"
             android:src="@drawable/new_diary" />
     </LinearLayout>
+
     <TextView
-        android:background="#ffffff"
-        android:layout_width="match_parent"
-        android:text="11月"
-        android:paddingTop="5dp"
         android:id="@+id/month"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#ffffff"
+        android:paddingTop="5dp"
+        android:text="11月"
         android:textAlignment="center"
         android:textColor="#3bb1bc"
-        android:textSize="25dp"
-        android:layout_height="wrap_content"
-        />
+        android:textSize="25dp" />
 
-    <View
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="2dp"/>
+
 
     <ListView
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="10dp"
+        android:divider="#EFEEEE"
+        android:dividerHeight="5dp"
         android:background="#ffffff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

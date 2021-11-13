@@ -11,13 +11,13 @@
 
     <!--控制边界线颜色和大小-->
     <stroke
-        android:width="5dp"
-        android:color="#BFBFBF" />
+        android:width="1dp"
+        android:color="#64BEED" />
     <solid
         android:color="#0036EFE8"
         />
 
     <!--控制圆角大小-->
-    <corners android:radius="30dp" />
+    <corners android:radius="10dp" />
 
 </shape>

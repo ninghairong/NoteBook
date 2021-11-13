@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NoteBook</string>
+    <string name="app_name">日记本</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -89,6 +89,15 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date">日期:</string>
+    <string name="date_value">2021-11-15</string>
+    <string name="author">作者:</string>
+    <string name="author_value">宁海荣</string>
+    <string name="long_text">只是，亲爱的，今日这霏霏细雨是否也会浓稠你对我的思念?你是否也如往昔般在烟雨江南的雕栏曲处将你我的红尘绘制成娟?你曾说你喜爱诗情画意的生活，亲爱的，等我们暮年白发苍苍的时候，我们一齐执手烟雨湖畔，看春日里百花争艳，秋日里荷映碧蓝，你作曲我抚琴，共谱一曲绝世潇湘，好吗 繁华盛世的岁月，与你相守在红尘，有你千般疼爱万般宠溺，我已感知足，每一天处在安暖里，将心湖的一抹涟漪徜徉在文字的平仄里，看着那些幻化的空灵翩跹着灵魂的萌动，看着你来过的痕迹，这又怎能不是一种幸福!为了你，我甘情绪愿就此成论，我愿意在你赋予的一寸圈地蜗居一世，即便是只能在臆想里期遇，即便只能是千里两相隔，即便是一路春色，我也只唯你此处风景独好。亲爱的，只是我想你的时候你是否也在想我?是否能在灵犀里听到我想你时的心跳脉搏 只是，亲爱的，今日这霏霏细雨是否也会浓稠你对我的思念?你是否也如往昔般在烟雨江南的雕栏曲处将你我的红尘绘制成娟?你曾说你喜爱诗情画意的生活，亲爱的，等我们暮年白发苍苍的时候，我们一齐执手烟雨湖畔，看春日里百花争艳，秋日里荷映碧蓝，你作曲我抚琴，共谱一曲绝世潇湘，好吗 繁华盛世的岁月，与你相守在红尘，有你千般疼爱万般宠溺，我已感知足，每一天处在安暖里，将心湖的一抹涟漪徜徉在文字的平仄里，看着那些幻化的空灵翩跹着灵魂的萌动，看着你来过的痕迹，这又怎能不是一种幸福!为了你，我甘情绪愿就此成论，我愿意在你赋予的一寸圈地蜗居一世，即便是只能在臆想里期遇，即便只能是千里两相隔，即便是一路春色，我也只唯你此处风景独好。亲爱的，只是我想你的时候你是否也在想我?是否能在灵犀里听到我想你时的心跳脉搏</string>
+    <string name="upload">上传图片</string>
+    <string name="take_photo">take_photo</string>
+    <string name="save">save</string>
 </resources>

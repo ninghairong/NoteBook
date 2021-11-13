@@ -11,12 +11,12 @@ public class Diary implements Serializable {
    private String context = "";
    private String Date = "";
    private String author = "";
-   private List<Photo> photo = null;
+   private String photo = null;
 
    public Diary() {
    }
 
-   public Diary(Integer id, String tittle, String context, String date, String author, List<Photo> photo) {
+   public Diary(Integer id, String tittle, String context, String date, String author, String photo) {
       this.id = id;
       this.tittle = tittle;
       this.context = context;
@@ -65,11 +65,11 @@ public class Diary implements Serializable {
       this.author = author;
    }
 
-   public List<Photo> getPhoto() {
+   public String getPhoto() {
       return photo;
    }
 
-   public void setPhoto(List<Photo> photo) {
+   public void setPhoto(String photo) {
       this.photo = photo;
    }
 

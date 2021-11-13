@@ -22,15 +22,9 @@ public class DBHelper extends SQLiteOpenHelper {
                 + DBContants.TABLE_FIELD_TITLE + " varchar(255) , "
                 + DBContants.TABLE_FIELD_CONTEXT + " varchar(255) ,"
                 + DBContants.TABLE_FIELD_AUTHOR + " varchar(255), "
-                +DBContants.TABLE_FIELD_DATE+ " varchar(255))";
+                +DBContants.TABLE_FIELD_DATE+ " varchar(255),"
+                + DBContants.TABLE_FIELD_PHOTO_PATH + "  varchar(255))";
 
-        db.execSQL(sql);
-        sql = "create table "
-                + DBContants.TABLE_PHOTO_NAME + "(  "
-                + DBContants.TABLE_FIELD_PHOTO_ID + " integer primary key ,"
-                + DBContants.TABLE_FIELD_PHOTO_PATH + "  varchar(255),"
-                +DBContants.TABLE_FIELD_PHOTO2DIARY_ID + " integer)";
-        Log.e("TAG", "onCreate: "+sql);
         db.execSQL(sql);
 
     }

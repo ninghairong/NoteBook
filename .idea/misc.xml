@@ -5,8 +5,11 @@
       <map>
         <entry key="..\:/Users/91864/AndroidStudioProjects/NoteBook/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26979166666666665" />
         <entry key="..\:/Users/91864/AndroidStudioProjects/NoteBook/app/src/main/res/drawable/shape.xml" value="0.26979166666666665" />
-        <entry key="..\:/Users/91864/AndroidStudioProjects/NoteBook/app/src/main/res/layout/activity_edit.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/91864/AndroidStudioProjects/NoteBook/app/src/main/res/drawable/shape1.xml" value="0.26564102564102565" />
+        <entry key="..\:/Users/91864/AndroidStudioProjects/NoteBook/app/src/main/res/layout/activity_edit.xml" value="0.1" />
         <entry key="..\:/Users/91864/AndroidStudioProjects/NoteBook/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/91864/AndroidStudioProjects/NoteBook/app/src/main/res/layout/activity_search.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/91864/AndroidStudioProjects/NoteBook/app/src/main/res/layout/activity_show.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/91864/AndroidStudioProjects/NoteBook/app/src/main/res/layout/diary_item.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/91864/AndroidStudioProjects/NoteBook/app/src/main/res/layout/fragment_main.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/91864/AndroidStudioProjects/NoteBook/app/src/main/res/layout/fragment_my.xml" value="0.25364583333333335" />
